@@ -1,0 +1,275 @@
+@media screen and (max-width: 1200px) {
+
+
+    #world {
+        background-size: 70%;
+    }
+    .card-case .card-text {
+        padding: 0px 10px;
+    }
+    .list-link {
+        margin-right: 15px;
+    }
+
+    #protection {
+        background-size: 60%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .header {
+        padding-top: 30px;
+    }
+    .menu {
+        display: none;
+    }
+    #first h1 {
+        font-size: 50px;
+    }
+    .features-title {
+        line-height: 1.2;
+    }
+    #protection {
+        padding-bottom: 120px;
+    }
+    .button-learn {
+        margin: 10px 0px 0px 0px;
+    }
+    .text {
+        font-size: 19px;
+    }
+    .protection-title {
+        margin-top: 160px;
+    }
+    .protection-text {
+        margin-bottom: 50px;
+    }
+    #world {
+        background-size: 60%;
+    }
+    .slider-img, .slider-customers {
+        padding: 0px 40px;
+        text-align: center;
+    }
+    .card-case {
+        padding: 42px 10px 120px 15px;
+    }
+    .card-case {
+        .card-item {
+            display: block;
+            font-size: 15px;
+            padding-left: 10px;
+        }
+        .card-text {
+            padding: 0px;
+            font-size: 15px;
+        }
+        .card-button {
+            padding: 8px 40px 10px 40px;
+        }
+        .card-button-pro {
+            padding: 8px 30px 10px 30px;
+        }
+    }
+    .list-link {
+        margin-right: 7px;
+    }
+    .header-burger.active span {
+        transform: scale(0); 
+        transition: 0.5s; 
+    }
+    .header-burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+        transition: 0.4s;
+    }
+    .header-burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+        transition: 0.4s;
+    }
+
+    .header-burger.active {
+        margin-right: 0px;
+    }
+    .menu.active {
+        display: flex;
+        position: absolute;
+        left: 10;
+        top: 70px;
+        background: rgba(0, 0, 0, 0.03);
+        padding: 20px 15px;
+        border-radius: 10px;
+        z-index: 100;
+        .menu-item:hover {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.098);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+    .header {
+        padding-top: 15px;
+    }
+    .menu.active {
+        top: 60px;
+    }
+    .menu-right a{
+        display: none;
+    }
+    #first h1 {
+        font-size: 38px;
+    }
+    #feature {
+        padding-bottom: 60px;
+    }
+    .features-text {
+        margin-bottom: 60px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .protection-title {
+        margin-bottom: 40px;
+    }
+    .text {
+        font-size: 16px;
+    }
+    #protection {
+        background-size: 50%;
+    }
+    #world {
+        background-size: 60%;
+        padding-top: 60px;
+    }
+    .world-dropbox {
+        margin-bottom: 20px;
+    }
+    .slider-customers, .slider-img {
+        padding: 0px;
+    }
+    .slider-img .customers-img {
+        margin: 0px 40px 60px 40px;
+    }
+    .slick-next, .slick-prev {
+        top: -53%;
+    }
+    .card-case {
+        margin-top: 60px;
+    }
+    .footer-menu-item a {
+        font-size: 11px;
+    }
+    .footer-text {
+        font-size: 12px;
+    }
+    .footer-logo {
+        width: 110px;
+    }
+    .list-link {
+        margin-right: 4px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu-right .button{
+          display: none;    
+    }
+    #first {
+        padding-top: 170px;
+    }
+    #first .first-text {
+        width: 95%;
+    }
+    #first .phone {
+        height: 300px;
+    }
+    .first-iphone {
+        width: 300px;
+    }
+    #first .first-button {
+        background: rgba(252, 252, 252, 0.75);
+        border: 0px;
+    }
+    .features-item {
+        padding-left: 0px;
+    }
+    .features-item .features-img {
+        display: inline-block;
+        float: right;
+        margin: -10px 15px 0px 0px;
+    }
+    #features {
+        padding-bottom: 0px;
+    }
+    .protection-title {
+        margin-top: 80px;
+    }
+    #protection {
+        background: url(../img/iPhone6-prot.png) no-repeat center bottom;
+        background-size: 100%;
+        padding-bottom: 110%;
+    }
+    #world {
+        background: url(../img/worldmap.png) no-repeat center bottom 50px;
+        padding-bottom: 65%;
+        background-size: 90%;
+        padding-top: 60px;
+    }
+    .slider-main {
+        bottom: 132px;
+        margin: 0px;
+        width: 130%;
+        left: -15%;
+        right: -20px;
+    }
+    .slider-main, .slick-slide {
+        transform: scale(0.8);
+    }
+    #buy {
+        padding: 0px 5px 120px 5px;
+    }
+    .buy-form {
+        width: 90%;
+        font-size: 12px;
+    }
+    .buy-button {
+        background: #6fc754;
+        padding: 8px 20px 10px 20px;
+    }
+    .customers-text {
+        width: 100%;
+    }
+    .card-case .card-item {
+        font-size: 11px;
+    }
+    .footer-button {
+        align-items: center;
+    }
+    .footer-menu {
+        padding: 0px;
+    }
+    .footer-list {
+        margin-bottom: 25px;
+    }
+    .slider .slider-item {
+        padding-top: 90px;
+    }
+    .button-hack {
+        margin-right: 10px;
+    }
+    .menu.active {
+        padding: 15px;
+        margin: 0px;
+    }
+    .header-burger.active {
+        margin: 15px 30px 0 0;
+    }
+    
+}
